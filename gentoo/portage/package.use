@@ -1,0 +1,35 @@
+
+app-accessibility/speech-dispatcher python_targets_python3_2 -python_targets_python3_3
+app-admin/eselect-php -apache2
+app-crypt/pinentry -gtk
+app-text/enchant -hunspell
+dev-lang/php cgi sqlite -ssl -spell -apache2 -gdbm pdo -truetype -exif soap
+dev-libs/libnl python_targets_python3_2 -python_targets_python3_3
+dev-libs/libxml2 python python_targets_python3_2 -python_targets_python3_3 icu
+dev-python/Babel -python_targets_python3_3
+dev-python/dbus-python python_targets_python3_2 -python_targets_python3_3
+dev-python/jinja -python_targets_python3_3
+dev-python/markupsafe python_targets_python3_2 -python_targets_python3_3
+dev-python/numpy python_targets_python3_2 -python_targets_python3_3
+dev-python/ply python_targets_python3_2 -python_targets_python3_3
+dev-python/pycairo python_targets_python3_2 -python_targets_python3_3
+dev-python/pytz python_targets_python3_2 -python_targets_python3_3
+dev-python/pyxdg python_targets_python3_2 -python_targets_python3_3
+dev-python/setuptools python_targets_python3_2 -python_targets_python3_3
+dev-python/simplejson -python_targets_python3_3
+dev-python/urwid python_targets_python3_2 -python_targets_python3_3
+media-libs/harfbuzz icu
+media-libs/libpng apng
+net-im/pidgin -xscreensaver -gstreamer
+sys-apps/busybox pam
+sys-apps/file python_targets_python3_2 -python_targets_python3_3
+sys-apps/portage python_targets_python3_2 -python_targets_python3_3
+sys-devel/gcc -gtk
+sys-fs/udev gudev introspection
+sys-libs/zlib minizip
+x11-base/xorg-server xorg
+x11-libs/libxcb python_targets_python3_2 -python_targets_python3_3
+x11-libs/vte python
+x11-proto/xcb-proto python_targets_python3_2 -python_targets_python3_3
+x11-wm/openbox imlib
+
