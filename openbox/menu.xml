@@ -39,6 +39,15 @@
       </startupnotify>
     </action>
   </item>
+
+  <item label="Eclipse" icon="/opt/eclipse/icon.xpm">
+    <action name="Execute">
+      <command>/opt/eclipse/eclipse</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
   
   <separator/>
   

@@ -3,7 +3,7 @@ app-accessibility/speech-dispatcher python_targets_python3_2 -python_targets_pyt
 app-admin/eselect-php -apache2
 app-crypt/pinentry -gtk
 app-text/enchant -hunspell
-dev-lang/php cgi sqlite -ssl -spell -apache2 -gdbm pdo -truetype -exif soap
+dev-lang/php cgi sqlite mysql ssl -spell -apache2 -gdbm pdo -truetype -exif soap openssl gd
 dev-libs/libnl python_targets_python3_2 -python_targets_python3_3
 dev-libs/libxml2 python python_targets_python3_2 -python_targets_python3_3 icu
 dev-python/Babel -python_targets_python3_3
@@ -23,7 +23,7 @@ media-libs/libpng apng
 net-im/pidgin -xscreensaver -gstreamer
 sys-apps/busybox pam
 sys-apps/file python_targets_python3_2 -python_targets_python3_3
-sys-apps/portage python_targets_python3_2 -python_targets_python3_3
+sys-apps/portage -python_targets_python3_2 python_targets_python3_3
 sys-devel/gcc -gtk
 sys-fs/udev gudev introspection
 sys-libs/zlib minizip
